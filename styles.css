@@ -1,0 +1,79 @@
+html { 
+  width: 100%; 
+  height: 100%; 
+}
+
+.left_bar {
+  height: 100%; 
+  width: 300px; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  background-color: dimgrey; 
+  resize: none;
+  position: absolute;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+.left_bar img{
+  width: 100%;
+}
+
+.left_bar p {
+  color: white;
+  position: relative;
+  behavior: inherit;
+}
+
+.left_bar img {
+  height: 20%;
+  width: 90%;
+}
+
+.left_bar a:hover {
+  color: #f1f1f1;
+}
+
+.top_bar {
+  height: 40px;  
+  top: 0;   
+  left: 300px;
+  right: 0;
+  background-color: powderblue; 
+  position: absolute;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+.top_bar a {
+  color: #818181;
+  position: top;
+  font-stretch: normal;
+}
+
+#content2 {
+  height: auto;
+  top: 40px; 
+  left: 300px;
+  right: 0;
+  bottom: 0;
+  background-color: #2f5a70; 
+  position: absolute;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+  display: flex; 
+  align-items: center;
+}
+
+#game {
+  margin:0 auto; 
+  width: auto; 
+  height: auto;
+  border: solid 4px darkcyan; 
+  top: 30px; 
+  left: 50px;
+  position: absolute; 
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
