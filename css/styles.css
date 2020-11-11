@@ -1,0 +1,60 @@
+/* Reset CSS */
+* {
+  margin: 0; padding: 0;
+}
+/* ========= */
+
+html { width: 100%; height: 100%; margin: 0; padding: 0; }
+body { background: #353842; width: 100%; height: 100%; margin: 0; padding: 0; }
+
+.main_page { min-width: 1000px; min-height: 600px; overflow: hidden; height: 100%; }
+
+.main_page .left_content { height: 100%; width: 20%; float: left; background-color: white }
+.main_page .left_content .logo { height: 200px; background-color: rgb(76, 72, 87); padding: 20px 0 10px 0; }
+.main_page .left_content .logo img { display: block; height: 150px; width: 100; margin: 0 auto; }
+.main_page .left_content .logo h3 { color:#fff; text-align: center; line-height: 50px; }
+
+.main_page .left_content .description { height: calc(100% - 270px); width: 100%; background-color: rgb(5, 42, 90); 
+                                        float: left; overflow-y: auto; }
+.main_page .left_content .description h3 { line-height: 50px; color: white; text-align: center; }
+
+.main_page .left_content .footer { height: calc(100% - 10px); width: 100%; background-color: rgb(12, 170, 144); }
+.main_page .left_content .footer h3 { line-height: 40px; color: white; text-align: center; }
+
+.main_page .right_content { height: 100%; width: 80%; float: left}
+.main_page .right_content .top_bar { height: 50px; background-color: rgb(4, 43, 75);}
+.main_page .right_content .top_bar ul { float: left; }
+.main_page .right_content .top_bar ul li { float: left; display: block; }
+.main_page .right_content .top_bar ul button { background-color: rgb(4, 43, 75); border: none; color: white; 
+                                               text-decoration: none; cursor: pointer; outline:none; font-size: 14px; 
+                                               padding: 15px 40px; line-height: 20px; }
+.main_page .right_content .top_bar ul button:hover { text-align: center; background-color: #6f7790; }
+
+.main_page .right_content .outer_game_screen { height: 497px; width: 992px; margin:35px 30px 30px 30px; 
+                                               background: #3f4b5b; overflow: hidden; }
+
+.main_page .right_content .game_screen { height: 550px; width: 1050px; margin:25px 25px 25px 25px; background: #3f4b5b;
+                                         overflow: hidden;}
+
+/*
+
+
+
+
+.main-content .inner-content { height: calc(100% - 265px); margin:0 25px 25px 25px; background: #3f4b5b; overflow: hidden; }
+
+.button { display: block; width: 200px; height: 40px; line-height: 40px; color: #fff; background-color: #cf4f29; text-align: center; cursor: pointer; margin:10px auto;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; }
+
+.button:hover { color:#fff; background-color: #e7582e; }
+
+.button.disabled { opacity: 0.3; cursor: default; background-color: #a1a1a1; }
+.button.disabled:hover { background-color: #a1a1a1; }
+
+*/
+

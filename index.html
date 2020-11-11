@@ -4,32 +4,42 @@
     <title>Dungeon Battle</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.js"></script>  
-    <script src="js/main_menu.js"></script>
-    <script src="js/scene2.js"></script>
-    <script src="js/config.js"></script> 
+    <script src="scenes/Main_menu.js"></script>
+    <script src="scenes/World.js"></script>
+    <script src="scenes/BattleScene.js"></script>
+    <script src="js/on_click_events.js"></script>
+    <script src="js/config.js"></script>
 </head>
 <body>
-    <div class="main_content"></div>
-        <div class="content">  
-            <div class="left_bar">
+    <div class="main_page">
+        <div class="left_content">
+            <div class="logo">
                 <img src="images/logo_papei.png">
-                <p>About</p> 
-                <p>Services</p> 
-                <p>Clients</p> 
-                <p>Contact</p> 
+                <h3>Απίστευτο παιχνίδι </h3>
             </div>
-            <div class="top_bar">
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
+            <div class="description">
+                <h3 id=description_text>Παιχνίδι 2D περιγραφή</h3>
             </div>
-            <div id="game">
-            </div>  
+            <div class="footer">
+                <h3>Μπαρόλας Δημήτρης</h3>
             </div>
-        </div>  
-    </div>
+        </div>
+        <div class="right_content">
+            <div class="top_bar">   
+                <ul>
+                    <li><button id="button_1" onclick="button_click_1()">Πληροφορίες</button></li>
+                    <li><button id="button_2" onclick="button_click_2()">Πληροφορίες</button></li>
+                    <li><button id="button_3" onclick="button_click_3()">Πληροφορίες</button></li>
+                </ul> 
+            </div> 
+            <div class="game_screen">
+                <div class="outer_game_screen">
+                    <div id=game></div>   
+                </div>
+            </div>
+        </div>    
+</script>
 </body>
 </html>

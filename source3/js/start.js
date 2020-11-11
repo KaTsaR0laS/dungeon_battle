@@ -1,6 +1,6 @@
 var config = {
     type: Phaser.AUTO,
-    parent: 'content',
+    parent: 'game',
     width: 320,
     height: 240,
     zoom: 2,

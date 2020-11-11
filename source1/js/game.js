@@ -184,7 +184,7 @@ var WorldScene = new Phaser.Class({
 
 var config = {
     type: Phaser.AUTO,
-    parent: 'content',
+    parent: 'game',
     left: 400,
     width: 400,
     height: 300,
